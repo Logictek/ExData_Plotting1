@@ -10,6 +10,7 @@ data$DateTime <- as.POSIXct(paste(data$Date, data$Time))
 
 
 # creating Plot4
+png("plot4.png", width = 480, height = 480)
 
 # divide the plot device into four subplots
 par(mfrow=c(2,2)) 

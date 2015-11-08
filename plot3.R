@@ -10,7 +10,7 @@ data$DateTime <- as.POSIXct(paste(data$Date, data$Time))
 
 
 # creating Plot3
-
+png("plot4.png", width = 480, height = 480)
 
 
 plot(data$DateTime, data$Sub_metering_1, type="l", ylab= "Energy sub metering", xlab="")
